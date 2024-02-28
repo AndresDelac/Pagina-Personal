@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family: 'Kanit';
+    src: url(/assets/fonts/Kanit/Kanit-Bold.ttf);
+    font-size: normal;
+    font-weight: bold;
+} 
+
+@font-face {
+  font-family: 'Kanit';
+  src: url(/assets/fonts/Kanit/Kanit-Italic.ttf);
+  font-size: normal;
+  font-weight: normal;
+} 
+*{
+  box-sizing: border-box;
+}
+
+html{
+    background: linear-gradient(to bottom,rgb(11, 27, 84), rgb(27, 26, 85), rgb(83, 92, 145), rgb(146, 144, 195));
+    background-size: cover;
+}
+
+h1{
+  color: rgb(55, 140, 197);
+  font-family:"Kanit";
+  font-weight: 500;
+  font-style: oblique;
+}
+  /* aaaa */
+  /* rgb(11, 27, 84), rgb(27, 26, 85), rgb(83, 92, 145), rgb(146, 144, 195) mi version-actual */
+  /* rgb(7, 15, 43), rgb(27, 26, 85), rgb(83, 92, 145), rgb(146, 144, 195) ordenado*/
+  /* rgb(146, 144, 195), rgb(83, 92, 145), rgb(27, 26, 85), rgb(7, 15, 43) invertido */
+  /* rgb(232, 227, 216), rgb(109, 93, 110), rgb(79, 69, 87), rgb(57, 54, 70) alternativo*/
+
+#wrapper{
+  padding-bottom: 1cm;
+  margin: 80px auto;
+  width: 70%;
+}
+#andres{
+  max-width: 320px;
+  height: 330px;
+  float: left;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  margin-right: 1cm;
+  margin: 1cm;
+}
+
+
+header{
+  text-align: center;
+  padding: 0.5cm;
+  padding-bottom: 0.2cm;
+}
+
+  h1{ 
+    text-align: left;
+    font-size: 3em;
+    margin-bottom: 0.2cm ;
+  }
+
+  .introduccion{  
+    color: aliceblue;
+    margin-top: 1em;
+    font-size: 0.5cm;
+    margin-bottom: 0.1cm;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 100;
+
+  }
+
+  .yo{
+    color: beige;
+    font-size: 4em;
+    font-family: 'Kanit';
+    font-style: oblique;
+    font-weight: 600;
+  }
+
+  h2{
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+    font-size: 0.8cm;
+    font-family: 'Kanit';
+    font-style: normal;
+  }
+
+main{
+  padding: 0.2cm;
+  padding-top: 0.5cm;
+  padding-left: 0.7cm;
+  padding-right: 0.7cm;
+}
+
+  #sobreMi{
+    color: lightgray;
+    /* font-size: 48px; */
+  }
+
+  #aboutMe{
+    padding-top: 0.8cm;
+    padding-bottom: 1.5cm;
+  }
+
+  #texto1{
+    text-align: center;
+    padding: 1cm;
+    /* margin-right: 10px; */
+    font-family: 'Kanit';
+    font-style: italic;
+    font-size: 23px;
+    color: rgb(255, 246, 233);  
+  }
+
+  #lista1{
+    text-align: left;
+    /* margin-top: 0.2cm; */
+    padding-top: 0.6cm;
+    padding-bottom: 0.4cm;
+    padding-left: 1cm;
+    font-family: 'Kanit';
+    font-style: oblique;
+    font-size: 0.55cm;
+    color: rgb(255, 246, 233);
+  }
+
+  li{
+    padding-top:0.1cm;
+    padding-bottom:0.1cm;
+    list-style:circle;
+  }
+
+  #misTecnologias{
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+  }
+  .card{
+    text-align: center;
+    box-shadow: rgb(127, 197, 188) 0px 5px 12px 10px;
+    margin: 25px;
+    border-radius: 10px;
+  }
+
+  .imagen{
+    width: 290px;
+    height: 340px;
+    margin: 0 12px;
+  }
+  #html{
+    margin-top: 1cm;
+  }
+  .container{
+    margin: 0, 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  #img1{
+    text-align: center;
+  }
+
+  #texto2{
+    text-align: center;
+    padding: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-size: 0.6cm;
+    color: rgb(255, 246, 233);
+  }
+
+  #tecnologias{
+    color: lightgray;
+  }
+
+footer{
+  padding: 0.6cm;
+}
+
+  #footerAc{
+    color: rgb(255, 246, 233);
+    font-weight: 300;
+    text-align: center;
+  }
+  .actividades{
+    text-align: center;
+    padding-bottom: 0.7cm;
+    color: lightgray;
+  }
+
+  #ulFooter{
+    padding-left: 1.5cm;
+  }
+
