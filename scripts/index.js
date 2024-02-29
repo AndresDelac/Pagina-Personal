@@ -59,6 +59,7 @@ function crearTarjeta(activity) {
     const cardDiv = document.createElement('div');
     cardDiv.classList.add('activity-card');
 
+    const  form = document.getElementById('formularioTarjeta')
     const titulo = document.createElement('h3');
     titulo.textContent = activity.title;
 
@@ -72,6 +73,7 @@ function crearTarjeta(activity) {
     cardDiv.appendChild(descripcion);
     cardDiv.appendChild(imagen);
 
+    form.reset()
     return cardDiv;
 }
 
