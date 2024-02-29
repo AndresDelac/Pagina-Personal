@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/index.js"></script>
     <title>Presentacion Personal</title>
 </head>
 
@@ -18,6 +17,7 @@
          <h4 class="introduccion"> Hola, mi nombre es</h4>
          <h2 class="yo"> Andres De la Cruz</h2>
     </header>
+    <hr>
     <main>
         <section>
             
@@ -26,16 +26,18 @@
 
                     <img id="andres" src="assets/img/yop.jpg" alt="andres">
                     <div id="cajaTexto">
+
                         <h2 id="sobreMi">ESTAS SON ALGUNAS COSAS SOBRE MI:</h2>
                         <p id="texto1">Como dije antes mi nombre completo es Hugo Andres De la Cruz, pero solo prefiero que me digan Andres, vivo en Cali, Colombia, tengo 18 años, en algun punto dado quiero entrar a la Universidad para estudiar Ingenieria de Sistemas, me considero una persona bastante social (o eso creo yo jsjskjs) y a continuacion algunas de las cosas que me gusta hacer: </p>
                         <img src="assets/img/" alt="">
+
                     </div>
                 </div>
-                            <br>                 
+                <br>                 
                          <ul id="lista1">
-                            <li>Me gusta jugar a los juegos principalmente de PC, pero tambien me gustan muchos de Play Station</li>
-                            <li>Me gusta leer (tengo que decir que no lo hago a diario pero aun asi lo disfruto mucho)</li>
-                            <li>Me encanta eschar musica, puedo facilmente estar un dia solo escuchando mi Playlist como de 8 horas</li>
+                            <li class="lista2">Me gusta jugar a los juegos principalmente de PC, pero tambien me gustan muchos de Play Station</li>
+                            <li class="lista2">Me gusta leer (tengo que decir que no lo hago a diario pero aun asi lo disfruto mucho)</li>
+                            <li class="lista2">Me encanta eschar musica, puedo facilmente estar un dia solo escuchando mi Playlist como de 8 horas</li>
                         </ul>
 
                     
@@ -63,36 +65,60 @@
                         </div>
 
                     </div>
-
                 </article>
                 <hr>
-                <article>
-    </main>
-        <footer>
-
-                    <h2 id="footerAc">Mis Actividades Favoritas</h2>
+                    <h2 id="footerAc">CREA TU ACTIVIDAD FAVORITA</h2>
+                    <br><br><br><br>
                     <section id="actividades">
-                        <ul id="ulFooter">
-                            <label for="titulo">TITULO</label>
-                            <li><input type="text" name="titulo"></li>
-
-                            <label for="descripcion">BREVE DESCRIPCION</label>
-                            <li><textarea name="" id="" cols="30" rows="10"></textarea></li>
-
-                            <label for="imagen">URL DE IMAGEN</label>
-                            <li><input type="url" name="imagen"></li>
-
-                            <button id="agregarActividad">Agregar Actividad</button>
-                        </ul>
-                    </section>
-                    <div class="contenedorDeActividades">
                         
-                    </div>
+                        
+                        <form id="formularioTarjeta">
+                            <ul class="cartaCreada">
+                            <fieldset ></fieldset>
+                            <label for="">TITULO: </label>
+                            <input type="text" id="tituloInput" name="titulo" placeholder="Ingrese el título" required>
+                            <br>
+                            <br>
+                            <br>
+                        </ul class="cartaCreada">
+                        
+                        <ul>
+                            <label for="">URL IMAGEN</label>
+                            <input type="url" id="imagenInput" name="imagen" placeholder="Ingrese la URL de la imagen" required>
+                            <br>
+                            <br>
+                            <br><br>
+                        </ul>
 
-                </article>
+                        <ul class="cartaCreada">
+                            <label for="">DESCRIPCION BREVE</label>
+                            <textarea id="descripcionInput" name="descripcion" placeholder="Ingrese la descripción" required></textarea>
+
+                            <br>
+                            <br>
+                        </ul>
+                        
+                        <button type="">Crear Tarjeta</button>
+                        
+
+                        </form>
+
+                        <div id="contenedorDeActividades" type="submit"></div>
+
+                    </section>
+
+             
+                
+            
+    </main>
+            <footer>    
+                
+                
+
+
         </footer>
         </section>
-    
+        <script src="scripts/index.js"></script>
     
 </body>
 </html>

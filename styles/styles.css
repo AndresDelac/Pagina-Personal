@@ -17,18 +17,18 @@
 }
 
 html{
-    background: linear-gradient(to bottom,rgb(11, 27, 84), rgb(27, 26, 85), rgb(83, 92, 145), rgb(146, 144, 195));
+    background: linear-gradient(to bottom, rgb(87, 87, 87), rgb(125, 133, 151) );
     background-size: cover;
 }
 
 h1{
-  color: rgb(55, 140, 197);
+  color: rgb(44, 44, 44);
   font-family:"Kanit";
   font-weight: 500;
   font-style: oblique;
 }
   /* aaaa */
-  /* rgb(11, 27, 84), rgb(27, 26, 85), rgb(83, 92, 145), rgb(146, 144, 195) mi version-actual */
+  /* rgb(65, 90, 119), rgb(119, 141, 169) version actual */
   /* rgb(7, 15, 43), rgb(27, 26, 85), rgb(83, 92, 145), rgb(146, 144, 195) ordenado*/
   /* rgb(146, 144, 195), rgb(83, 92, 145), rgb(27, 26, 85), rgb(7, 15, 43) invertido */
   /* rgb(232, 227, 216), rgb(109, 93, 110), rgb(79, 69, 87), rgb(57, 54, 70) alternativo*/
@@ -42,8 +42,9 @@ h1{
   max-width: 320px;
   height: 330px;
   float: left;
-  border: 2px solid #fff;
-  border-radius: 12px;
+  border: 3px solid; 
+  box-shadow: rgb(27, 38, 59) 0px 5px 12px 10px;
+  border-radius: 10px;
   margin-right: 1cm;
   margin: 1cm;
 }
@@ -53,15 +54,19 @@ header{
   text-align: center;
   padding: 0.5cm;
   padding-bottom: 0.2cm;
+  background-color: rgb(91, 91, 91);
 }
 
   h1{ 
     text-align: left;
     font-size: 3em;
-    margin-bottom: 0.2cm ;
+    margin-bottom: 2cm ;
   }
 
-  .introduccion{  
+  .introduccion{ 
+    margin-top: 0.7cm;
+    margin-bottom: 0.1cm;
+    text-align: left; 
     color: aliceblue;
     margin-top: 1em;
     font-size: 0.5cm;
@@ -69,10 +74,11 @@ header{
     font-family: 'Kanit';
     font-style: italic;
     font-weight: 100;
-
   }
 
   .yo{
+    margin-top: 0.1cm;
+    text-align: left;
     color: beige;
     font-size: 4em;
     font-family: 'Kanit';
@@ -96,7 +102,7 @@ main{
 }
 
   #sobreMi{
-    color: lightgray;
+    color: rgb(35, 35, 35);
     /* font-size: 48px; */
   }
 
@@ -111,7 +117,7 @@ main{
     /* margin-right: 10px; */
     font-family: 'Kanit';
     font-style: italic;
-    font-size: 23px;
+    font-size: 30px;
     color: rgb(255, 246, 233);  
   }
 
@@ -123,11 +129,11 @@ main{
     padding-left: 1cm;
     font-family: 'Kanit';
     font-style: oblique;
-    font-size: 0.55cm;
+    font-size: 23px;
     color: rgb(255, 246, 233);
   }
 
-  li{
+  .lista2{
     padding-top:0.1cm;
     padding-bottom:0.1cm;
     list-style:circle;
@@ -143,6 +149,12 @@ main{
     margin: 25px;
     border-radius: 10px;
   }
+.container{
+    margin: 0, 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
 
   .imagen{
     width: 290px;
@@ -152,12 +164,7 @@ main{
   #html{
     margin-top: 1cm;
   }
-  .container{
-    margin: 0, 15px;
-    display: flex;
-    justify-content: center;
-    margin-top: 55px;
-  }
+  
   #img1{
     text-align: center;
   }
@@ -169,18 +176,22 @@ main{
     padding-bottom: 1cm;
     font-family: 'Kanit';
     font-style: italic;
-    font-size: 0.6cm;
+    font-size: 32px;
     color: rgb(255, 246, 233);
   }
 
   #tecnologias{
-    color: lightgray;
+    color: rgb(35, 35, 35);
   }
 
 footer{
   padding: 0.6cm;
 }
 
+
+  .listaFooter{
+    padding: 10px;
+  }
   #footerAc{
     color: rgb(255, 246, 233);
     font-weight: 300;
@@ -196,3 +207,93 @@ footer{
     padding-left: 1.5cm;
   }
 
+
+  .activity-card{
+    text-align: center;
+    background-color: rgb(125, 133, 151);
+    border:solid black 1px;
+    box-shadow: rgb(219, 220, 203) 0px 2px 5px 4px;
+    margin: 25px;
+    border-radius: 8px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 15px;
+  }
+
+  .activity-title{
+    text-align: center;
+    margin-bottom: 2px;
+  }
+
+  #contenedorDeActividades{
+    margin: 0, 15px;
+    display: flex;
+     justify-content: center
+   
+  }
+
+  .activity-card h3 {
+    margin-bottom: 10px; 
+}
+.activity-card p {
+  margin-bottom:25px ;
+}
+
+  .activity-image{
+    justify-content: center;
+
+  }
+
+  .activity-card img {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+
+
+
+  button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: rgb(87, 87, 87);
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: rgb(35, 35, 35);
+    box-shadow: 0 0 20px #404d5550;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+  /* button {
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  } */
+  
+#cartaCreada{
+  justify-content: left;
+  padding-bottom: 10px;
+
+ }
